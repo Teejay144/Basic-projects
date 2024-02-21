@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  /* flex-direction: column; */
+}
+.main_wrap {
+  width: 30em;
+  max-width: 100%;
+  /* border: 2px solid blue; */
+}
+
+.Ist {
+  background-color: white;
+  border: 0;
+  border-radius: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Ist i.bi-circle {
+  font-size: 40px;
+  color: royalblue;
+}
+.Ist i.bi-bell-fill {
+  font-size: 25px;
+}
+
+.Ist p {
+  margin: 0;
+}
+.content_sect {
+  padding: 30px 15px 40px;
+  background-color: whitesmoke;
+}
+/* .pad_wrap{
+  
+} */
+
+.pad {
+  border: 0;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  background-color: rgba(26, 77, 218, 0.726);
+  color: white;
+  /* text-align: center;*/
+  width: 100%;
+  position: relative;
+}
+.left {
+  text-align: left;
+}
+.pad::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 30px;
+  height: 3px;
+  left: 45%;
+  background-color: rgb(223, 172, 7);
+}
+
+.quick {
+  text-align: left;
+}
+
+.grid-wrap {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  margin-top: 55px;
+  box-shadow: 0 5px 5px #ccc;
+}
+.grid-container {
+  display: grid;
+  /* place-items: row;*/
+  grid-template-columns: 200px 200px;
+  border-radius: 3px solid blue;
+  padding: 10px;
+}
+.gam {
+  background-color: rgba(8, 28, 214, 0.027);
+  border: 2px solid royalblue;
+  padding: 30px 10px;
+  font-size: 15px;
+  text-align: left;
+  border-radius: 9px;
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  /* box-sizing: border-box; */
+  align-items: center;
+}
+.gam span {
+  font-size: 16px;
+}
+.gam i {
+  font-size: 25px;
+  color: royalblue;
+}
+
+.bold span {
+  color: red;
+}
+
+.rocket {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0;
+}
+
+.touch {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  /* margin-top: 20px */
+  padding: 30px 10px;
+}

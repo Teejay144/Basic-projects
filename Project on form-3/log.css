@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 98vh; */
+  background-color: rgb(59, 57, 75);
+}
+
+.log {
+  text-align: center;
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.in {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  margin: auto;
+  padding-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100px;
+}
+
+input[type="email"],
+input[type="password"] {
+  /* position: relative; */
+  width: 100%;
+  display: block;
+  padding: 10px 5px 10px 0px;
+  text-indent: 30px;
+  /* display: flex; */
+  border: 1px solid #ccc;
+  color: #ffffff;
+  text-align: left;
+  /* background-color: rgb(56, 53, 53); */
+  font-size: 12px;
+  border-radius: 2px;
+  border: none;
+  /* align-items: center; */
+  background-color: rgb(31, 24, 37);
+  outline-color: rgb(48, 9, 80);
+}
+
+button {
+  background-color: rgb(221, 221, 135);
+  color: blue;
+  padding: 8px 18px;
+  font-size: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.head {
+  border-radius: 2px;
+  background-color: rgba(139, 114, 114, 0.788);
+  padding: 50px 25px 2px 25px;
+  position: relative;
+  text-align: center;
+  /* margin: 5rem; */
+  width: 18rem;
+  max-width: 90%;
+}
+
+.for {
+  color: rgb(199, 193, 193);
+  text-align: center;
+  font-size: 12px;
+}
+.fit {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  /* left: 190px; */
+  /* background-color: rgb(241, 234, 234);*/
+}
+.fit.wrap {
+  flex-direction: column;
+  text-align: center;
+}
+
+link.fitwrap {
+  padding: 45px;
+  width: 100%;
+  position: relative;
+  border: 2px solid greenyellow;
+}
+
+.sign-up {
+  height: auto;
+  /* width: ; */
+  color: aliceblue;
+  font-size: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.log-in {
+  height: auto;
+  width: 100px;
+  color: aliceblue;
+  font-size: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_wrap {
+  /* border: 2px solid blue; */
+  margin: 0px 0px 10px;
+  position: relative;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+}
+
+.input_wrap i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+  z-index: 10px;
+  color: rgb(221, 221, 135);
+}
+
+.checkwrap {
+  position: relative;
+  width: 70px;
+  height: 35px;
+  /* border: 1px solid blue; */
+  z-index: 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  margin: 20px auto 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input[type="checkbox"] {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  opacity: 0.5;
+  visibility: visible;
+  background-color: blue;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.toggle_bg {
+  position: relative;
+  width: 40px;
+  height: 15px;
+  background-color: rgb(221, 221, 135);
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 0;
+  transition: 0.3s linear;
+}
+
+.icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+}
+
+input:checked ~ .checkwrap .toggle_bg {
+  background-color: green;
+}
+
+input:checked ~ .checkwrap .toggle_bg .icon {
+  background-color: red;
+  left: 100%;
+}
+
+.icon i:nth-of-type(2) {
+  visibility: hidden;
+  opacity: 0;
+  /* display: none; */
+}
+
+input:checked ~ .checkwrap .toggle_bg .icon i:nth-of-type(1) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+input:checked ~ .checkwrap .toggle_bg .icon i:nth-of-type(2) {
+  visibility: visible;
+  opacity: 1;
+}
+
+label[for="check"] input {
+  display: none;
+}
+
+.head.two {
+  display: none;
+}
+
+input:checked ~ .head.one {
+  opacity: 0;
+  display: none;
+}
+
+input:checked ~ .head.two {
+  /* opacity: 0; */
+  display: block;
+}
+
+.already {
+  color: white;
+  text-decoration: none;
+}

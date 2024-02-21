@@ -1,0 +1,36 @@
+body {
+  background-color: lightgrey;
+}
+.auto {
+  height: 60vh;
+  width: 30%;
+
+  margin: auto;
+  background-color: white;
+}
+.amount {
+  background-color: #f3f3f3;
+  height: 15%;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.col-3 {
+  width: 10%;
+  display: inline-block;
+}
+.col-7 {
+  display: inline-block;
+  float: right;
+}
+
+.dan {
+  background-color: #f3f3f3;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.idan {
+  background-color: #f3f3f3;
+  padding-top: 20px;
+  padding-left: 20px;
+}

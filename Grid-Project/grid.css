@@ -1,0 +1,47 @@
+body {
+  background-color: bisque;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / 7;
+  column-gap: 25px;
+}
+
+.joe {
+  text-align: center;
+  color: black;
+  padding: 10px solid;
+  border: 2px;
+  font-family: fantasy;
+  grid-area: span;
+  width: auto;
+color: blue;
+}
+
+.joe-2{
+    color: rosybrown
+}
+
+
+
+
+
+
+
+
+

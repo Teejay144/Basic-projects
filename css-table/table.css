@@ -1,0 +1,82 @@
+body {
+  /* background-color: bisque; */
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.joe {
+  border: 5px solid rgb(9, 9, 212);
+  text-align: center;
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px dotted;
+  text-align: left;
+  font-family: cursive;
+  padding: 15px;
+}
+table tr:nth-child(odd) {
+  background-color: blue;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+tr {
+  padding: 20px;
+}
+
+th {
+  background-color: blue;
+}
+
+.jane {
+  background-color: blue;
+}
+
+.jane-1 {
+  background-color: blue;
+}
+
+.jane-2 {
+  background-color: blue;
+}
+
+a {
+  border: 2px solid gray;
+}
+
+/* .jey {
+  color: rgb(5, 5, 224);
+}
+.jey-2 {
+  color: rgb(218, 13, 13);
+}
+.jey-3 {
+  color: rgb(11, 233, 11);
+} */
+
+/* .jane {
+  color: rgb(209, 5, 5);
+}
+.jane-1 {
+  color: green;
+}
+
+.jane-2 {
+  color: rgb(15, 15, 231);
+}
+.jane-3 {
+  color: green;
+}
+.let {
+  color: blue;
+} */

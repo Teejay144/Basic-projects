@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(231, 229, 226);
+}
+
+.para {
+  text-align: center;
+  color: black;
+}
+
+.addr {
+  text-align: right;
+  color: cadetblue;
+}
+
+.head {
+  text-align: left;
+  color: rgb(14, 11, 11);
+}
+
+.para-1 {
+  text-align: left;
+  color: darkorange;
+}
+
+#para-2 {
+  text-align: left;
+  color: rgb(216, 15, 15);
+}
+#para-3 {
+  text-align: left;
+  color: rgb(13, 146, 13);
+}
+
+#para-4 {
+  text-align: left;
+  color: rgb(6, 6, 224);
+}
+#para-5 {
+  text-align: left;
+  color: crimson;
+}
+
+#para-6 {
+  text-align: left;
+  color: darkred;
+}

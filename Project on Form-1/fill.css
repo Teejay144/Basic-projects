@@ -1,0 +1,77 @@
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+  position: relative;
+}
+
+.let {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  float: left;
+}
+
+.fam {
+  width: 100%;
+  /* float: left; */
+  /* display: flex; */
+}
+
+.div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 50px;
+  position: relative;
+  width: 100%;
+  align-items: left;
+  /* float: right; */
+  margin: 1px;
+  display: flex;
+  text-align: left;
+}
+
+.key {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 50px;
+  position: absolute;
+  width: 50%;
+  align-items: center;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jude {
+  align-items: left;
+  display: flex;
+  position: relative;
+}
+
+.las {
+  text-align: left;
+  display: flex;
+  position: relative;
+}
+
+.bott {
+  text-align: right;
+  background-color: bisque;
+  color: blue;
+  border: solid 1px;
+}

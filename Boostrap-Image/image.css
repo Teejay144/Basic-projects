@@ -1,0 +1,339 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+/* .navbar {
+  margin-bottom: 5px;
+  border-radius: 0;
+  color: rgb(212, 26, 26);
+} */
+
+.let {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  color: blue;
+}
+
+.jumbotron-1 {
+  background-color: rgb(255, 3, 3) !important;
+  padding: 70px;
+  margin: 20px;
+  /* margin-top: 70px; */
+  border: 5px;
+  border-radius: 5px;
+}
+
+.jumbotron-2 {
+  background-color: blanchedalmond !important;
+  margin: 15px;
+  border: 5px;
+  border-radius: 5px;
+  padding: 70px;
+}
+
+img {
+  margin: 30px;
+  border: 5px;
+  border-radius: 5px;
+}
+/* .web {
+  text-align: center;
+  font-size: 80px;
+  position: absolute;
+  color: #ffff;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+button.btn-outline-success {
+  align-items: center;
+  border: 1px;
+  border-radius: 5px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.btn_wrap {
+  width: fit-content;
+  border: 1px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.images {
+  border: 1px;
+  border-radius: 15px;
+  padding: 45px;
+}
+/* .row.col-sm-3:hover .overlay {
+  bottom: 0;
+  height: 100px;
+} */
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay_wrap {
+  position: relative;
+  /* border: 2px solid blue; */
+  min-height: 16em;
+  overflow: hidden;
+}
+.overlay_wrap img {
+  /* border: 2px solid red; */
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 0; */
+  transition: 0.5s ease;
+  color: white;
+}
+.overlay_wrap:hover .overlay {
+  top: 0%;
+}
+
+.text:hover {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: rgb(193, 206, 17) !important;
+  margin: 30px;
+  color: #ffff;
+  display: flex;
+  position: absolute;
+  padding: 5px;
+  padding-right: 50px;
+}
+
+.col-4 {
+  background-color: rgb(70, 228, 64) !important;
+  margin: 30px;
+  color: #ffff;
+  /* /* display: flex;
+  position: absolute; */
+  /* padding: 5px; */
+}
+*/ .border {
+  text-align: center;
+  margin: 50px;
+  /* background-color: rgb(22, 214, 64); */
+  color: black;
+  padding: 40px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+.col-12 {
+  background-color: rgb(8, 211, 160) !important;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* border: solid 5px red; */
+  border-radius: 10px;
+  padding: 4rem;
+  /* margin: 40px; */
+}
+
+.vet {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  margin: 40px;
+}
+
+.col-sm-2 {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+.bot {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.let {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  float: left;
+}
+
+.fam {
+  width: 100%;
+  /* float: left; */
+  /* display: flex; */
+}
+
+.div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  /* background-color: rgba(226, 16, 26, 0.849); */
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  align-items: left;
+  /* float: right; */
+  margin: 1px;
+  display: flex;
+  text-align: left;
+}
+
+.key {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  background-color: cyan;
+  padding: 20px;
+  position: absolute;
+  width: 70%;
+  align-items: center;
+  margin: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jude {
+  align-items: left;
+  display: flex;
+  position: relative;
+}
+
+.las {
+  text-align: left;
+  display: flex;
+  position: relative;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+  position: relative;
+}
+
+#subject {
+  border-radius: 5px;
+  padding: 80px 80px;
+  text-align: left;
+}
+
+.con {
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: blue;
+}
+
+nav.navbar {
+  position: fixed !important;
+  width: 100%;
+  margin: 0;
+  /* margin-bottom: 70px !important; */
+  z-index: 40px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+.carousel-indicators {
+  display: flex;
+  gap: 10px !important;
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 13px !important;
+  border-radius: 40px !important;
+  background-color: lightgray !important;
+  border: none !important;
+}
+
+.carousel-indicators button.active {
+  background-color: royalblue !important;
+  width: 2px !important;
+}
+
+h1.text-center {
+  color: brown;
+  margin: 20px;
+}
+
+form.wrap {
+  background-color: rgb(8, 211, 160) !important;
+}
+
+.joe {
+  text-align: center;
+  color: royalblue;
+  margin: 5px;
+}
+
+p.let {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: rebeccapurple;
+}
+
+h3.text-center {
+  color: #ffffff;
+  text-shadow: #f51313;
+  font-family: "Times New Roman", Times, serif;
+  margin: 40px;
+  background-color: rgb(186, 14, 220);
+  border: 1px solid;
+  border-radius: 5px 5px;
+  padding: 20px;
+}
+
+br.mail {
+  color: coral;
+}
+
+.heading {
+  text-align: center;
+  color: orangered;
+}

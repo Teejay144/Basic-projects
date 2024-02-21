@@ -1,0 +1,91 @@
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  /* align-items: center; */
+}
+
+.wrap {
+  width: 30em;
+  /* align-items: center; */
+}
+
+.joe {
+  text-align: center;
+  color: blue;
+}
+
+.div {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  position: relative;
+  /* width: 100%; */
+  text-align: left;
+  align-items: center;
+  margin: 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+  position: relative;
+}
+
+.font {
+  font-size: 20px;
+}
+
+input[value="Continue"] {
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  /* margin: 10px 10px; */
+  /* display: inline-block; */
+  border: 1px solid #ccc;
+  color: #f0f0f0;
+  text-align: center;
+  background-color: blue;
+  font-size: 12px;
+  border-radius: 7px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+input[value="Continue"]:hover {
+  background-color: grey;
+  padding: 10px 5px;
+  align-items: center;
+}
+
+#input[id="email"] {
+  width: 100%;
+  padding: 10px, 5px;
+}
+
+label.looks {
+  color: rgb(14, 14, 238);
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.lop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+.let {
+  text-align: center;
+  color: rgb(98, 98, 245);
+  margin: 15px;
+  font-size: 12px;
+  /* width: 100%; */
+}
